@@ -1,20 +1,24 @@
 const players = [
     {
         name: "Spenser",
-        score: 90
+        score: 90,
+        id: 1,
     },
     {
         name: "Nick",
-        score: 85
+        score: 85,
+        id: 2,
     },
     {
         name: "John",
-        score: 80
+        score: 80,
+        id: 3,
     },
     {
         name: "Haily",
-        score: 95
-    }
+        score: 95,
+        id: 4,
+    },
 ];
 
 const Header = (props) =>
@@ -46,7 +50,7 @@ const App = (props) =>
     <div className="scoreboard">
         <Header title={"Scoreboard"} totalPlayers={1}/>
 
-        {props.initialPlayers.map(player => <Player name={player.name} score={player.score}/>)}
+        {props.initialPlayers.map(player => <Player key={player.id.toString()} name={player.name} score={player.score}/>)}
     </div>
 
 ReactDOM.render(
