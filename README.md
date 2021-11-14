@@ -1,8 +1,10 @@
-# Scoreboard made with React.JS
+# Overview
+
+Scoreboard made with React.JS
 
 -> [View Demo](https://spenserhale.github.io/scoreboard-react-tth/)
 
-> Created based on React Basics Course from [Treehouse](https://teamtreehouse.com/library/react-basics-2)
+Created based on React Basics Course from [Treehouse](https://teamtreehouse.com/library/react-basics-2)
 
 ## Credits
  
